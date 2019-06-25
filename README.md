@@ -1,4 +1,5 @@
 # vue-challenge
+Example description is [here](https://hackmd.io/@fBvA0b9STKy6yLXFz9hRQg/HJvt_Ptlx?type=view).
 
 ## Project setup
 ```
