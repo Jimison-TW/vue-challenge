@@ -10,7 +10,7 @@
           <li v-for="(todo, index) in todo_list" :key="todo.id" class="list-item">
             <input type="checkbox" v-model="todo.value" @change="checkFinished(index, todo.value)" />
             <span :hidden="todo.inEdit">{{ todo.title }}</span>
-            <input type="text" v-model="todo.title" :hidden="!todo.inEdit" size="15"/>
+            <input type="text" v-model="todo.title" :hidden="!todo.inEdit" size="15" />
             <button @click="editTodo(index)">修改</button>
             <input type="button" value="刪除" @click="removeTodo(index)" />
           </li>
